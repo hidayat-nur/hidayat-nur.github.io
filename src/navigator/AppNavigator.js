@@ -5,7 +5,7 @@ import Home from "../screens/home";
 function AppNavigator() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route exact path="/" element={<Home />} />
     </Routes>
   );
 }

@@ -4,7 +4,7 @@ import AppNavigator from "./navigator/AppNavigator";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <AppNavigator />
     </BrowserRouter>
   );
