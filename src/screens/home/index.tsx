@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { IMG } from "../../assets/images";
-import "./index.styles.ts";
 import styles from "./index.styles";
 
 function Home() {
@@ -20,8 +19,8 @@ function Home() {
                 <br />
                 My personal slogan is
                 <br />
-                <br /> Build properly | Understand the concept | Understand what
-                to do
+                <br />
+                Build properly | Understand the concept | Understand what to do
               </p>
             </Col>
             <Col style={styles.wrapAvatar}>
