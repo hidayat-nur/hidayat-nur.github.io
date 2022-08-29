@@ -1,7 +1,8 @@
 import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import { IMG } from "../../assets/images";
 import styles from "./index.styles";
+import Files from "./../../assets/files";
 
 function Home() {
   return (
@@ -22,6 +23,9 @@ function Home() {
                 <br />
                 Build properly | Understand the concept | Understand what to do
               </p>
+              <Button variant="success" href={Files.cv} target="_blank">
+                Download Resume
+              </Button>
             </Col>
             <Col style={styles.wrapAvatar}>
               <Image src={IMG.AVATAR} style={styles.avatar} roundedCircle />
