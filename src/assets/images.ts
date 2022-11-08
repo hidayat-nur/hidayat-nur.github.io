@@ -1,5 +1,5 @@
-import AVATAR from "./images/hidayat.jpeg";
+import SALY from "./images/saly.png";
 
 export const IMG = {
-  AVATAR,
+  SALY,
 };
