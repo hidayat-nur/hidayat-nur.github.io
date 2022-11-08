@@ -7,15 +7,18 @@ import Files from "./../../assets/files";
 function Home() {
   return (
     <div style={styles.container}>
-      <div style={styles.wrapIntro}>
-        <Container>
-          <Row style={styles.intro}>
-            <Col xs={8} style={styles.wrapIntroInfo}>
+      <Container>
+        <Row>
+          <Col xs={8} style={styles.col_bt}>
+            <div style={styles.wrapIntroInfo}>
               <h2 style={styles.introLabel}>Hi there 👋 I`m Hidayat</h2>
               <p style={styles.introSubLabel}>
-                🔭 I’m currently working on moduit.id as a react native
-                developer. Working with lots of adding new features and bugfix
-                issues to make the app even better.
+                🔭 I’m currently working on{" "}
+                <a href="https://www.moduit.id/" style={styles.link}>
+                  moduit.id
+                </a>{" "}
+                as a react native developer. Working with lots of adding new
+                features and bugfix issues to make the app even better.
                 <br />
                 🌱 Outside of work, I learned a lot of correct coding
                 fundamentals such as clean code, code optimization, and other
@@ -28,13 +31,15 @@ function Home() {
               <Button style={styles.btnCV} href={Files.cv} target="_blank">
                 Download Resume
               </Button>
-            </Col>
-            <Col style={styles.wrapAvatar}>
+            </div>
+          </Col>
+          <Col xs={4} style={styles.col_bt}>
+            <div style={styles.wrapAvatar}>
               <Image src={IMG.SALY} style={styles.avatar} roundedCircle />
-            </Col>
-          </Row>
-        </Container>
-      </div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }

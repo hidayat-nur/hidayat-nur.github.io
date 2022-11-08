@@ -2,42 +2,47 @@ import COLORS from "./../../styles/colors";
 
 export default {
   container: {
-    flex: 1,
     height: "100vh",
     backgroundImage: "linear-gradient(190deg, #34495E, #16A085)",
+    alignItems: "center",
+    display: "flex",
   },
-  wrapIntro: {},
-  intro: {
-    paddingTop: 100,
-    paddingBottom: 100,
-  },
-  wrapIntroInfo: {
-    alignSelf: "center",
+  wrapIntroInfo: {},
+  col_bt: {
+    alignItems: "center",
+    display: "flex",
   },
   btnCV: {
     backgroundColor: COLORS.globalRed,
     borderWidth: 0,
+    marginTop: 25,
+    fontStyle: "normal",
+    fontWeight: "400",
+    fontSize: 20,
+    color: COLORS.globalGray,
   },
-  wrapAvatar: {
-    alignSelf: "center",
-    textAlign: "right" as const,
+  link: {
+    color: COLORS.lightYellow,
+    textDecoration: "none",
   },
+  wrapAvatar: {},
   avatar: {
-    width: 230,
-    height: 230,
+    width: 560,
+    height: 560,
   },
   introLabel: {
     // font-family: 'Poppins';
     fontStyle: "normal",
     fontWeight: "700",
-    fontSize: 36,
+    fontSize: 45,
     color: COLORS.globalWhite,
   },
   introSubLabel: {
     // font-family: 'Poppins';
     fontStyle: "normal",
     fontWeight: "400",
-    fontSize: 16,
+    fontSize: 20,
     color: COLORS.globalGray,
+    marginTop: 25,
   },
 };
