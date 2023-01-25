@@ -1,76 +1,81 @@
-.global-container {
+@keyframes background-animation {
+  0% {
+    background-color: #000000;
+  }
+  20% {
+    background-color: #333333;
+  }
+  40% {
+    background-color: #34495e;
+  }
+  60% {
+    background-color: #e74c3c;
+  }
+  80% {
+    background-color: #16a085;
+  }
+  100% {
+    background-color: #333333;
+  }
+}
+
+body {
+  margin: 0;
+  animation: background-animation 60s ease-in-out infinite;
+
+}
+
+.portfolio-page {
+  padding: 20px 50px;
+}
+
+.header-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.main-section {
+  margin-bottom: 20px;
+}
+
+.center-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
-  background-image: linear-gradient(190deg, #34495E, #16A085);
-  align-items: center;
-  display: flex;
 }
-.col_bt {
-  align-items: center;
-  display: flex;
-}
-.btnCV {
-  background-color: #E53935;
-  border-width: 0;
-  margin-top: 25px;
-  font-style: normal;
-  font-weight: 400px;
-  font-size: 20px;
-  color: #E5E7EB;
-}
+
 .link {
   color: #fee715ff;
   text-decoration: none;
 }
-.avatar {
-  width: 100%;
-  height: auto;
-}
-.introLabel {
-  /* font-family: 'Poppins'; */
-  font-style: normal;
-  font-weight: 700px;
-  font-size: 45px;
-  color: #F9FAFB;
-}
-.introSubLabel {
-  /* font-family: 'Poppins'; */
-  font-style: normal;
-  font-weight: 400px;
-  font-size: 20px;
-  color: #E5E7EB;
-  margin-top: 25px;
+
+.light-text {
+  color: #ffffff;
 }
 
-/* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-  .wrap-info {
-    padding: 100px 30px 25px 30px;
-  }
+.download {
+  color: #f1c40f;
 }
 
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-  .wrap-info {
-    padding: 100px 60px 25px 60px;
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header-section {
+    flex-direction: column;
+    align-items: center;
   }
-  .wrapAvatar {
-    justify-content: center;
-    display: flex;
+
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
   }
 }
-
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-  .container {
-    max-width: 100%;
-  }
-  .wrap-info {
-    padding: 0px 60px 0px 60px;
-  }
-}
-
-/* Large devices (desktops, less than 1200px) */
-/* @media (max-width: 1199.98px) { ... } */
-
-/* X-Large devices (large desktops, less than 1400px) */
-/* @media (max-width: 1399.98px) { ... } */
