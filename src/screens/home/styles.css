@@ -73,6 +73,10 @@ body {
     align-items: center;
   }
 
+  .portfolio-page {
+    padding-top: 150px;
+  }
+
   .profile-picture {
     width: 150px;
     height: 150px;
