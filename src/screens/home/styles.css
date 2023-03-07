@@ -68,18 +68,24 @@ body {
 
 /* Responsive styles */
 @media (max-width: 768px) {
+  .center-section {
+    display: block;
+    height: auto;
+  }
+
   .header-section {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
-
-  .portfolio-page {
-    padding-top: 150px;
-  }
-
+  
   .profile-picture {
     width: 150px;
     height: 150px;
     margin-bottom: 20px;
+    align-self: center;
+  }
+
+  .portfolio-page {
+    padding: 20px 20px;
   }
 }
