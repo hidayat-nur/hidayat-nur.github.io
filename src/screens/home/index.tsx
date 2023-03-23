@@ -1,30 +1,41 @@
 import React from "react";
 import { IMG } from "../../assets/images";
-import Files from "./../../assets/files";
 import "./styles.css";
 
 function Home() {
   return (
     <div>
       <header>
-        <a href="#">
+        <a href="">
           <img src={IMG.HIDAYATLAB_LOGO} className="logo" />
         </a>
 
         <div className="social">
           <ul>
             <li>
-              <a href="#">
+              <a
+                href="https://www.linkedin.com/in/hidayat-nur-51480210a/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
                 <img src={IMG.LINKEDIN_LOGO} />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a
+                href="https://github.com/hidayat-nur"
+                target={"_blank"}
+                rel="noreferrer"
+              >
                 <img src={IMG.GITHUB_LOGO} />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a
+                href="https://www.youtube.com/@border-radius"
+                target={"_blank"}
+                rel="noreferrer"
+              >
                 <img src={IMG.YOUTUBE_LOGO} />
               </a>
             </li>
@@ -34,7 +45,7 @@ function Home() {
         <div className="navigation">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="">Home</a>
             </li>
             <li>
               <a href="#">Articles</a>
