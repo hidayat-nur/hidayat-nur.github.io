@@ -31,7 +31,7 @@ function Home() {
           </ul>
         </div>
 
-        <nav>
+        <div className="navigation">
           <ul>
             <li>
               <a href="#">Home</a>
@@ -43,7 +43,7 @@ function Home() {
               <a href="#">About me</a>
             </li>
           </ul>
-        </nav>
+        </div>
       </header>
 
       <div className="intro">

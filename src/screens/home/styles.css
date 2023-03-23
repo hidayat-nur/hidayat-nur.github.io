@@ -3,28 +3,28 @@ header {
   padding: 25px 200px 0px 200px;
 }
 
-nav {
+.navigation {
   margin-top: 25px;
 }
 
-nav ul {
+.navigation ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: center;
 }
 
-nav ul li {
+.navigation ul li {
   display: inline-block;
   margin: 0 10px;
   padding: 0 10px 10px 10px;
 }
 
-nav ul li:first-child {
+.navigation ul li:first-child {
   border-bottom: 2px #141514 solid;
 }
 
-nav ul li a {
+.navigation ul li a {
   display: block;
   padding: 5px 10px;
   color: #141514;
@@ -34,7 +34,7 @@ nav ul li a {
   border-radius: 5px;
 }
 
-nav ul li a:hover {
+.navigation ul li a:hover {
   background-color: #CECFCD;
   color: #141514;
 }
@@ -75,8 +75,16 @@ nav ul li a:hover {
 }
 
 .social ul li a {
-  display: block;
-  padding: 5px 10px;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.social ul li a:hover {
+  background-color: #CECFCD;
 }
 
 .social ul li a img{
