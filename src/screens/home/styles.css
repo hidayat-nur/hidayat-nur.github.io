@@ -1,10 +1,10 @@
 header {
   background-color: #E5E5E5;
-  padding: 50px 200px 0px 200px;
+  padding: 25px 200px 0px 200px;
 }
 
 nav {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 nav ul {
@@ -39,11 +39,47 @@ nav ul li a:hover {
   color: #141514;
 }
 
-.logoLink {
-  /* border: 1px orange solid */
-}
-
 .logo {
   width: 200px;
   height: auto;
+}
+
+.intro {
+  width: 63%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.intro-title {
+  font-size: 48px;
+  color: #141514;
+}
+
+.intro-descript {
+
+}
+
+.social {
+  margin-top: 25px;
+}
+
+.social ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.social ul li {
+  display: inline-block;
+}
+
+.social ul li a {
+  display: block;
+  padding: 5px 10px;
+}
+
+.social ul li a img{
+  width: 25px;
+  height: 25px;
 }
