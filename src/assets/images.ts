@@ -1,5 +1,5 @@
-import SALY from "./images/saly.png";
+import HIDAYATLAB_LOGO from "./images/hidayatlab-logo.png";
 
 export const IMG = {
-  SALY,
+  HIDAYATLAB_LOGO,
 };

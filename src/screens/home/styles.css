@@ -1,91 +1,49 @@
-@keyframes background-animation {
-  0% {
-    background-color: #000000;
-  }
-  20% {
-    background-color: #333333;
-  }
-  40% {
-    background-color: #34495e;
-  }
-  60% {
-    background-color: #e74c3c;
-  }
-  80% {
-    background-color: #16a085;
-  }
-  100% {
-    background-color: #333333;
-  }
+header {
+  background-color: #E5E5E5;
+  padding: 50px 200px 0px 200px;
 }
 
-body {
+nav {
+  margin-top: 50px;
+}
+
+nav ul {
   margin: 0;
-  animation: background-animation 60s ease-in-out infinite;
-
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
 }
 
-.portfolio-page {
-  padding: 20px 50px;
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 0 10px 10px 10px;
 }
 
-.header-section {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
+nav ul li:first-child {
+  border-bottom: 2px #141514 solid;
 }
 
-.profile-picture {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin-right: 20px;
-}
-
-.main-section {
-  margin-bottom: 20px;
-}
-
-.center-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-.link {
-  color: #fee715ff;
+nav ul li a {
+  display: block;
+  padding: 5px 10px;
+  color: #141514;
   text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+  border-radius: 5px;
 }
 
-.light-text {
-  color: #ffffff;
+nav ul li a:hover {
+  background-color: #CECFCD;
+  color: #141514;
 }
 
-.download {
-  color: #f1c40f;
+.logoLink {
+  /* border: 1px orange solid */
 }
 
-/* Responsive styles */
-@media (max-width: 768px) {
-  .center-section {
-    display: block;
-    height: auto;
-  }
-
-  .header-section {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .profile-picture {
-    width: 150px;
-    height: 150px;
-    margin-bottom: 20px;
-    align-self: center;
-  }
-
-  .portfolio-page {
-    padding: 20px 20px;
-  }
+.logo {
+  width: 200px;
+  height: auto;
 }
