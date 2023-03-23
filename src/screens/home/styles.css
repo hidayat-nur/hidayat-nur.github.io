@@ -109,7 +109,7 @@ header {
 }
 
 hr {
-  border-top: 1px #1F8505 solid;
+  border-top: 1px #C8C8C8 solid;
 }
 
 .blog {
@@ -167,4 +167,22 @@ hr {
 .blog-nav {
   font-size: 17px;
   color: #141514;
+}
+
+.footer {
+  background-color: #FCFBFA;
+  padding: 100px 0;
+}
+
+.copyright {
+  color: #141514;
+  text-align: center;
+  font-size: 17px;
+}
+
+.tech {
+  color: #AAAAAA;
+  text-align: center;
+  font-size: 14px;
+  /* font-style: italic; */
 }
