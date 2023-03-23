@@ -37,7 +37,10 @@ function Home() {
               <a href="#">Home</a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="#">Articles</a>
+            </li>
+            <li>
+              <a href="#">Experiences</a>
             </li>
             <li>
               <a href="#">About me</a>
@@ -47,13 +50,54 @@ function Home() {
       </header>
 
       <div className="intro">
-        <h1 className="intro-title">M Nur Hidayat</h1>
+        <img src={IMG.AVATAR} className="avatar" />
+        <p className="intro-title">M. Nur Hidayat</p>
         <p className="intro-descript">
           A hybrid mobile developer based in Indonesia.
-          <br />
-          But TLDR: I&apos;m just a nerd who loves to build projects and share
-          valuable tips for new programmers on this blog.
+          <br />A javascript enthusiast and an introvert. maybe this blog has
+          made me a little less introverted, LOL :)
         </p>
+      </div>
+
+      <hr />
+
+      <div className="blog">
+        <div className="blog-head">
+          <p className="blog-title">Latest Articles</p>
+          <a href="" className="blog-nav">
+            All articles
+          </a>
+        </div>
+        <div className="blog-list">
+          <ul>
+            <li>
+              <a href="#">Why Every Developer Should Start Blogging</a>
+              <p>September 08, 2019</p>
+            </li>
+            <li>
+              <a href="#">
+                The Developer&apos;s Guide to achieving Deep Work for Focus &
+                Productivity
+              </a>
+              <p>September 08, 2019</p>
+            </li>
+            <li>
+              <a href="#">I had a dream, but bugs were in the way</a>
+              <p>September 08, 2019</p>
+            </li>
+            <li>
+              <a href="#">Why Every Developer Should Start Blogging</a>
+              <p>September 08, 2019</p>
+            </li>
+            <li>
+              <a href="#">
+                The Developer&apos;s Guide to achieving Deep Work for Focus &
+                Productivity
+              </a>
+              <p>September 08, 2019</p>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
