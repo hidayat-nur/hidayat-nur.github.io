@@ -194,3 +194,77 @@ hr {
   font-size: 14px;
   /* font-style: italic; */
 }
+
+/* Extra small devices (phones, less than 600px wide) */
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 25px 20px 0px 20px;
+  }
+
+  .intro {
+    width: 90%;
+  }
+
+  .blog {
+    width: 90%;
+  }
+}
+
+/* Small devices (portrait tablets & large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  header {
+    padding: 25px 30px 0px 30px;
+  }
+
+  .intro {
+    width: 90%;
+  }
+
+  .blog {
+    width: 90%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  header {
+    padding: 25px 50px 0px 50px;
+  }
+
+  .intro {
+    width: 80%;
+  }
+
+  .blog {
+    width: 80%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  header {
+    padding: 25px 100px 0px 100px;
+  }
+
+  .intro {
+    width: 73%;
+  }
+
+  .blog {
+    width: 75%;
+  }
+}
+/* Extra large devices (large laptops & desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  header {
+    padding: 25px 200px 0px 200px;
+  }
+
+  .intro {
+    width: 63%;
+  }
+
+  .blog {
+    width: 63%;
+  }
+}
