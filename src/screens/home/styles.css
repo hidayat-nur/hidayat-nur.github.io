@@ -167,6 +167,14 @@ hr {
 .blog-nav {
   font-size: 17px;
   color: #141514;
+  text-decoration: none;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.blog-nav:hover {
+  color: #141514;
+  background-color: #FCFBFA;
 }
 
 .footer {

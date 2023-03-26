@@ -1,6 +1,7 @@
 import React from "react";
 import { IMG } from "../../assets/images";
 import "./styles.css";
+import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 function Home() {
   return (
@@ -76,7 +77,7 @@ function Home() {
         <div className="blog-head">
           <p className="blog-title">Latest Articles</p>
           <a href="" className="blog-nav">
-            All articles
+            All articles <MdKeyboardDoubleArrowRight size={25} />
           </a>
         </div>
         <div className="blog-list">
