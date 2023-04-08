@@ -1,16 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { IMG } from "../assets/images";
 
 export const HeaderComponent = () => {
   return (
     <header>
-      <a href="">
+      <Link to="/">
         <img
           src={IMG.HIDAYATLAB_LOGO}
           className="logo"
           alt="Hidayat Nur Lab Logo"
         />
-      </a>
+      </Link>
 
       <div className="social">
         <ul>
@@ -47,13 +48,13 @@ export const HeaderComponent = () => {
       <nav className="navigation">
         <ul>
           <li>
-            <a href="">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">Experiences</a>
+            <Link to="#">Experiences</Link>
           </li>
           <li>
-            <a href="#">About me</a>
+            <Link to="/aboutUs">About me</Link>
           </li>
         </ul>
       </nav>
