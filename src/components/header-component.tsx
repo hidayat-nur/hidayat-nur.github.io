@@ -50,9 +50,6 @@ export const HeaderComponent = () => {
             <a href="">Home</a>
           </li>
           <li>
-            <a href="#">Articles</a>
-          </li>
-          <li>
             <a href="#">Experiences</a>
           </li>
           <li>
