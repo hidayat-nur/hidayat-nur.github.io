@@ -1,8 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { IMG } from "../assets/images";
 
 export const HeaderComponent = () => {
+  const path = useLocation();
+  const pathName = path.pathname;
+
   return (
     <header>
       <Link to="/">
@@ -47,13 +50,13 @@ export const HeaderComponent = () => {
 
       <nav className="navigation">
         <ul>
-          <li>
+          <li className={pathName === "/" ? "nav-active" : ""}>
             <Link to="/">Home</Link>
           </li>
-          <li>
+          <li className={pathName === "/experiences" ? "nav-active" : ""}>
             <Link to="#">Experiences</Link>
           </li>
-          <li>
+          <li className={pathName === "/aboutUs" ? "nav-active" : ""}>
             <Link to="/aboutUs">About me</Link>
           </li>
         </ul>

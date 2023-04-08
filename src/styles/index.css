@@ -26,7 +26,7 @@ header {
   padding: 0 10px 10px 10px;
 }
 
-.navigation ul li:first-child {
+.nav-active {
   border-bottom: 2px #141514 solid;
 }
 
@@ -192,7 +192,23 @@ footer {
   color: #AAAAAA;
   text-align: center;
   font-size: 14px;
-  /* font-style: italic; */
+}
+
+.content {
+  width: 63%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0;
+}
+
+.me-avatar {
+  width: 20%;
+  height: auto;
+}
+
+.about-me-title {
+  color: #141514;
+  font-size: 32px;
 }
 
 /* Extra small devices (phones, less than 600px wide) */
