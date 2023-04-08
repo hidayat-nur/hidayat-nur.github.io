@@ -1,5 +1,4 @@
 import React from "react";
-import "./styles.css";
 import { FooterComponent } from "../../components/footer-component";
 import { BlogListComponent } from "./components/blog-list-component";
 import { IntroComponent } from "./components/intro-component";
