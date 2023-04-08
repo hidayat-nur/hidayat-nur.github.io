@@ -4,7 +4,7 @@ import { IMG } from "../assets/images";
 export const HeaderComponent = () => {
   return (
     <header>
-      <a href="/">
+      <a href="">
         <img
           src={IMG.HIDAYATLAB_LOGO}
           className="logo"
@@ -47,7 +47,7 @@ export const HeaderComponent = () => {
       <nav className="navigation">
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="">Home</a>
           </li>
           <li>
             <a href="#">Articles</a>
