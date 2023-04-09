@@ -241,6 +241,19 @@ footer {
   .blog {
     width: 90%;
   }
+
+  .content {
+    width: 90%;
+    padding: 30px 0;
+  }
+
+  .me-avatar {
+    width: 100%;
+  }
+
+  .navigation ul li {
+    padding: 0 0px 10px 0px;
+  }
 }
 
 /* Small devices (portrait tablets & large phones, 600px and up) */
@@ -255,6 +268,11 @@ footer {
 
   .blog {
     width: 90%;
+  }
+
+  .content {
+    width: 90%;
+    padding: 40px 0;
   }
 }
 
@@ -271,6 +289,11 @@ footer {
   .blog {
     width: 80%;
   }
+
+  .content {
+    width: 80%;
+    padding: 50px 0;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -286,6 +309,10 @@ footer {
   .blog {
     width: 75%;
   }
+
+  .content {
+    width: 75%;
+  }
 }
 /* Extra large devices (large laptops & desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -298,6 +325,10 @@ footer {
   }
 
   .blog {
+    width: 63%;
+  }
+
+  .content {
     width: 63%;
   }
 }
