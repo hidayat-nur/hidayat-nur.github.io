@@ -204,11 +204,28 @@ footer {
 .me-avatar {
   width: 20%;
   height: auto;
+  margin-top: 15px;
 }
 
 .about-me-title {
   color: #141514;
   font-size: 32px;
+  font-weight: bold;
+}
+
+.about-label {
+  color: #141514;
+  font-size: 32px;
+}
+
+.about-description {
+  color: #141514;
+  font-size: 17px;
+  line-height: 180%;
+}
+
+.about-content {
+  margin-top: 32px;
 }
 
 /* Extra small devices (phones, less than 600px wide) */
