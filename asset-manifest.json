@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.495605ba.css",
-    "main.js": "/portfolio/static/js/main.65b5904d.js",
+    "main.css": "/portfolio/static/css/main.85850985.css",
+    "main.js": "/portfolio/static/js/main.b6975cd2.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/401802_449677215044050_1785051113_n.jpg": "/portfolio/static/media/401802_449677215044050_1785051113_n.7d70fb69f2dd074d1f68.jpg",
     "static/media/hidayatlab-logo.png": "/portfolio/static/media/hidayatlab-logo.453b6488ecc5b929f060.png",
     "static/media/AvatarHidayat.png": "/portfolio/static/media/AvatarHidayat.3e95ab05b29ff4258267.png",
     "index.html": "/portfolio/index.html",
-    "main.495605ba.css.map": "/portfolio/static/css/main.495605ba.css.map",
-    "main.65b5904d.js.map": "/portfolio/static/js/main.65b5904d.js.map",
+    "main.85850985.css.map": "/portfolio/static/css/main.85850985.css.map",
+    "main.b6975cd2.js.map": "/portfolio/static/js/main.b6975cd2.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.495605ba.css",
-    "static/js/main.65b5904d.js"
+    "static/css/main.85850985.css",
+    "static/js/main.b6975cd2.js"
   ]
 }
