@@ -97,7 +97,7 @@ header {
   background-color: #CECFCD;
 }
 
-.social ul li a img{
+.social ul li a .icon-social {
   width: 25px;
   height: 25px;
 }

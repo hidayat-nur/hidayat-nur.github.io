@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { IMG } from "../assets/images";
+import { BsGithub, BsLinkedin, BsYoutube } from "react-icons/bs";
 
 export const HeaderComponent = () => {
   const path = useLocation();
@@ -24,7 +25,7 @@ export const HeaderComponent = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={IMG.LINKEDIN_LOGO} alt="LinkedIn logo" />
+              <BsLinkedin className="icon-social" color="#0072b1" />
             </a>
           </li>
           <li>
@@ -33,7 +34,7 @@ export const HeaderComponent = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={IMG.GITHUB_LOGO} alt="GitHub logo" />
+              <BsGithub className="icon-social" color="#171515" />
             </a>
           </li>
           <li>
@@ -42,7 +43,7 @@ export const HeaderComponent = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={IMG.YOUTUBE_LOGO} alt="YouTube logo" />
+              <BsYoutube className="icon-social" color="#FF0000" />
             </a>
           </li>
         </ul>
