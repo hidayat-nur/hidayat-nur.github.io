@@ -22,7 +22,7 @@ export const HeaderComponent = () => {
         <ul>
           <li>
             <a
-              href="https://www.linkedin.com/in/hidayat-nur-51480210a/"
+              href="https://www.linkedin.com/in/m-nur-hidayat-51480210a/"
               target="_blank"
               rel="noreferrer"
             >
