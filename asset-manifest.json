@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.84f00b7d.css",
-    "main.js": "/portfolio/static/js/main.b6975cd2.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/401802_449677215044050_1785051113_n.jpg": "/portfolio/static/media/401802_449677215044050_1785051113_n.7d70fb69f2dd074d1f68.jpg",
-    "static/media/hidayatlab-logo.png": "/portfolio/static/media/hidayatlab-logo.453b6488ecc5b929f060.png",
-    "static/media/AvatarHidayat.png": "/portfolio/static/media/AvatarHidayat.3e95ab05b29ff4258267.png",
-    "index.html": "/portfolio/index.html",
-    "main.84f00b7d.css.map": "/portfolio/static/css/main.84f00b7d.css.map",
-    "main.b6975cd2.js.map": "/portfolio/static/js/main.b6975cd2.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.84f00b7d.css",
+    "main.js": "/static/js/main.ab5d71d0.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/401802_449677215044050_1785051113_n.jpg": "/static/media/401802_449677215044050_1785051113_n.7d70fb69f2dd074d1f68.jpg",
+    "static/media/hidayatlab-logo.png": "/static/media/hidayatlab-logo.453b6488ecc5b929f060.png",
+    "static/media/AvatarHidayat.png": "/static/media/AvatarHidayat.3e95ab05b29ff4258267.png",
+    "index.html": "/index.html",
+    "main.84f00b7d.css.map": "/static/css/main.84f00b7d.css.map",
+    "main.ab5d71d0.js.map": "/static/js/main.ab5d71d0.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84f00b7d.css",
-    "static/js/main.b6975cd2.js"
+    "static/js/main.ab5d71d0.js"
   ]
 }
