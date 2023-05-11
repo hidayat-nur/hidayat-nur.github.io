@@ -1,16 +1,16 @@
 import React from "react";
 import { FooterComponent } from "../../components/footer-component";
-import { IntroComponent } from "./components/intro-component";
 import { HeaderComponent } from "../../components/header-component";
+import { BlogListComponent } from "./components/blog-list-component";
 
-function Home() {
+function Blog() {
   return (
     <div>
       <HeaderComponent />
-      <IntroComponent />
+      <BlogListComponent />
       <FooterComponent />
     </div>
   );
 }
 
-export default Home;
+export default Blog;

@@ -53,12 +53,18 @@ export const HeaderComponent = () => {
           <li className={pathName === "/" ? "nav-active" : ""}>
             <Link to="/">Home</Link>
           </li>
+          <li className={pathName === "/blog" ? "nav-active" : ""}>
+            <Link to="/blog">Blog</Link>
+          </li>
           <li className={pathName === "/experiences" ? "nav-active" : ""}>
             <Link to="#">Experiences</Link>
           </li>
-          <li className={pathName === "/aboutUs" ? "nav-active" : ""}>
-            <Link to="/aboutUs">About me</Link>
+          <li className={pathName === "/portfolio" ? "nav-active" : ""}>
+            <Link to="#">Portfolio</Link>
           </li>
+          {/* <li className={pathName === "/aboutUs" ? "nav-active" : ""}>
+            <Link to="/aboutUs">About me</Link>
+          </li> */}
         </ul>
       </nav>
     </header>

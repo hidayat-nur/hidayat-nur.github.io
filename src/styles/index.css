@@ -103,9 +103,9 @@ header {
 }
 
 .avatar {
-  width: 130px;
-  height: 130px;
-  border-radius: 50px;
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
 }
 
 hr {
@@ -151,35 +151,9 @@ hr {
   text-decoration: none;
 }
 
-.blog-head {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.blog-title {
-  font-size: 32px;
-  color: #141514;
-  margin-bottom: 0;
-}
-
-.blog-nav {
-  font-size: 17px;
-  color: #141514;
-  text-decoration: none;
-  padding: 0 5px;
-  border-radius: 5px;
-}
-
-.blog-nav:hover {
-  color: #141514;
-  background-color: #FCFBFA;
-}
-
 footer {
   background-color: #FCFBFA;
-  padding: 100px 0;
+  padding: 100px 20px;
 }
 
 .copyright {
