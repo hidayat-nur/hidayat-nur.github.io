@@ -1,7 +1,8 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { IMG } from "../assets/images";
-import { BsGithub, BsLinkedin, BsYoutube } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
+import { MdOutlineMailOutline } from "react-icons/md";
 
 export const HeaderComponent = () => {
   const path = useLocation();
@@ -37,13 +38,31 @@ export const HeaderComponent = () => {
               <BsGithub className="icon-social" color="#171515" />
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="https://www.youtube.com/@border-radius"
               target="_blank"
               rel="noreferrer"
             >
               <BsYoutube className="icon-social" color="#FF0000" />
+            </a>
+          </li> */}
+          <li>
+            <a
+              href="https://wa.me/085697746869"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsWhatsapp className="icon-social" color="#25D366" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:dayatznur@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <MdOutlineMailOutline className="icon-social" color="#141514" />
             </a>
           </li>
         </ul>
