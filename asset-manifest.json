@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e21e0b04.css",
-    "main.js": "/static/js/main.1f700ce1.js",
+    "main.css": "/static/css/main.3891a023.css",
+    "main.js": "/static/js/main.470bef92.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/hidayat-avatar.jpg": "/static/media/hidayat-avatar.03decfe8c6319a46ecbb.jpg",
     "static/media/hidayatlab-logo.png": "/static/media/hidayatlab-logo.453b6488ecc5b929f060.png",
     "index.html": "/index.html",
-    "main.e21e0b04.css.map": "/static/css/main.e21e0b04.css.map",
-    "main.1f700ce1.js.map": "/static/js/main.1f700ce1.js.map",
+    "main.3891a023.css.map": "/static/css/main.3891a023.css.map",
+    "main.470bef92.js.map": "/static/js/main.470bef92.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e21e0b04.css",
-    "static/js/main.1f700ce1.js"
+    "static/css/main.3891a023.css",
+    "static/js/main.470bef92.js"
   ]
 }
