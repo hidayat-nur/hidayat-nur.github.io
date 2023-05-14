@@ -73,7 +73,7 @@ export const HeaderComponent = () => {
           <li className={pathName === "/" ? "nav-active" : ""}>
             <Link to="/">Home</Link>
           </li>
-          <li className={pathName === "/blog" ? "nav-active" : ""}>
+          <li className={pathName.includes("blog") ? "nav-active" : ""}>
             <Link to="/blog">Blog</Link>
           </li>
           <li className={pathName === "/experiences" ? "nav-active" : ""}>

@@ -151,6 +151,21 @@ hr {
   text-decoration: none;
 }
 
+.blog-list .title {
+  font-size: 32px;
+  color: #141514;
+}
+
+.blog-list .time {
+  font-size: 14px;
+  color: #6E726E;
+}
+
+.blog-list .description {
+  font-size: 14px;
+  color: #141514;
+}
+
 footer {
   background-color: #FCFBFA;
   padding: 100px 20px;

@@ -6,30 +6,34 @@ export const BlogListComponent = () => {
       <div className="blog-list">
         <ul>
           <li>
-            <a href="#">Why Every Developer Should Start Blogging</a>
-            <p>September 08, 2019</p>
+            <a href="/blog/details">
+              Why Every Developer Should Start Blogging
+            </a>
+            <p>08 September 2019</p>
           </li>
           <li>
-            <a href="#">
+            <a href="/blog/details">
               The Developer&apos;s Guide to achieving Deep Work for Focus &
               Productivity
             </a>
-            <p>September 08, 2019</p>
+            <p>08 September 2019</p>
           </li>
           <li>
-            <a href="#">I had a dream, but bugs were in the way</a>
-            <p>September 08, 2019</p>
+            <a href="/blog/details">I had a dream, but bugs were in the way</a>
+            <p>08 September 2019</p>
           </li>
           <li>
-            <a href="#">Why Every Developer Should Start Blogging</a>
-            <p>September 08, 2019</p>
+            <a href="/blog/details">
+              Why Every Developer Should Start Blogging
+            </a>
+            <p>08 September 2019</p>
           </li>
           <li>
-            <a href="#">
+            <a href="/blog/details">
               The Developer&apos;s Guide to achieving Deep Work for Focus &
               Productivity
             </a>
-            <p>September 08, 2019</p>
+            <p>08 September 2019</p>
           </li>
         </ul>
       </div>
